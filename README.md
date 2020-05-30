@@ -11,9 +11,9 @@ A simple program that helps in analysing which disk scheduling algorithm is effi
 
 # Output
 -If the initial disk head direction is left :- 
-<img src="left.png" alt="initial head direction left" style="width:200px;"/>
+<img src="left.png" alt="initial head direction left" style="width:150px;"/>
 -If initial disk head direction is right :-
-<img src="right.png" alt="initial head direction right" style="width:200px;"/>
+<img src="right.png" alt="initial head direction right" style="width:150px;"/>
 
 # Author
 - Saran
