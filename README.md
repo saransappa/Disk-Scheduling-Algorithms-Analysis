@@ -9,5 +9,9 @@ A simple program that helps in analysing which disk scheduling algorithm is effi
 - LOOK
 - C-LOOK
 
+# Output
+![](left.png "If initial disk head direction is left")
+![](right.png "If initial disk head direction is right")
+
 # Author
 - Saran
