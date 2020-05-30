@@ -4,11 +4,6 @@ using namespace std;
 
 int MAX_CYL = 0;
 
-/*
-    Author - Saran Sappa
-    Github ID - saransappa
-*/
-
 float fifo(vector<int> v,int l){
     int seek = 0;
     int p = l;
@@ -274,6 +269,10 @@ int main(){
     int l;
     cout<<"Please enter the initial head location : ";
     cin>>l;
+    cout<<"Please specify the initial head direction:\n Enter 0 for left or 1 for right : ";
+    int dir;
+    cin>>dir;
+
     cout<<"Please enter the no.of disk I/O requests :  ";
     int n,k;
     cin>>n;
@@ -283,9 +282,6 @@ int main(){
         cin>>k;
         v.pb(k);
     }
-    cout<<"Please specify the head direction:\n Enter 0 for left or 1 for right :";
-    int dir;
-    cin>>dir;
     vector <float> t;
     t.pb(fifo(v,l));
     t.pb(sstf(v,l));
